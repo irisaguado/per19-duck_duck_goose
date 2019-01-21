@@ -1,5 +1,5 @@
 import sys
-nom_jugadores = ['juan', 'pepa', 'antonio']
+nom_jugadores = ['juan', 'pepa', 'antonio', 'luisa']
 num_elegigo = sys.argv[1]
 num_elegido = int(num_elegido)
 def duck_duck_goose(nom_jugadores, num_elegido):
@@ -9,3 +9,5 @@ def duck_duck_goose(nom_jugadores, num_elegido):
     return jug_elegido
 
 print(duck_duck_goose(nom_jugadores, num_elegido))
+
+
